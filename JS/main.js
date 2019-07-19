@@ -203,6 +203,7 @@ document.getElementById('book-from').addEventListener('submit', (e) => {
             timer: 1500
         })
         sidebar.style.right = '-310px';
+        document.body.style.overflow = "scroll";
     };
 
 
