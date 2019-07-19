@@ -11,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     background: #10101014;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .main-container{
