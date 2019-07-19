@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Contoso Books LLC.</title>
+</head>
+
+<body>
+
+    <header class="header hero">
+        <div class="header-content">
+            <div class="container">
+                <h1>Contoso Books LLC. <span class="i fas fa-book-open"></span> </h1>
+            </div>
+        </div>
+    </header>
+    <div class="contenedor">
+        <div class="main-container">
+
+            <div class="main-header">
+                <div class="header-title">
+                    <h1>On sales</h1>
+                </div>
+                <div class="header-btn">
+                        <button class="btnAdd" id="addBtn">New books</button>
+                    <!-- <div id= "addBtn" class="btnAdd"> Add new books </div> -->
+                </div>
+
+            </div>
+
+            <div class="main-body">
+                    <div id="sidebar" class="sidebar">
+                      
+                            <form id="book-from">
+                                    <div class="Closespan">
+                                            <span id="span"><i class="fas fa-times"></i></span>
+                                           </div>
+                                <div class="form-group">
+                                    <label for="bookName">Book Name</label>
+                                    <input class="inpt" type="text" name="bookName" id="bookName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="author">Author</label>
+                                    <input class="inpt" type="text" name="author" id="author">
+                                </div>
+                                <div class="form-group">
+                                    <label for="imgUrl">Image URL</label>
+                                    <input class="inpt" type="text" name="imgUrl" id="imgUrl">
+                                </div>
+                
+                                <div class="form-group">
+                                    <label for="price">Price</label>
+                                    <input class="inpt" type="number" name="price" id="price">
+                                </div>
+                
+                
+                
+                                <div class="form-group">
+                                    <label for="pubDate">Publication date</label>
+                                    <input class="inpt" type="date" name="pubDate" id="pubDate">
+                                </div>
+                
+                                <div class="form-group">
+                                    <label for="pubDate">Book description</label>
+                                    <textarea class="inpt" type="text" cols="30" rows="5" name="bookDes" id="bookDes"></textarea>
+                
+                                </div>
+                
+                                <div class="form-group">
+                                    <label for="isbn">ISBN</label>
+                                    <input class="inpt" type="text" name="isbn" id="isbn">
+                                </div>
+                
+                                <input class="btn btn-primary btn-block  " type="submit" value="Save Book">
+                            </form>
+                        </div>
+                <div class="div-book">
+                    <div class="bookImg">
+                        <img
+                            src="https://images-na.ssl-images-amazon.com/images/I/61P07hjuZwL._SX384_BO1,204,203,200_.jpg">
+                    </div>
+
+                    <div class="book-info">
+                        <div class="bookName">
+                            <h3>Code Your Own Games!: 20 Games to Create with Scratch</h3>
+                        </div>
+                        <div class="bookAuthor">
+                            <p> By : <strong>Max Wainewright</strong></p>
+                        </div>
+                        <div class="bookPrice">
+                            <p> Price : <strong>$11.00</strong></p>
+                        </div>
+                        <div class="bookDate">
+                                <p> Published : <strong>2018-07-17</strong></p>
+                            </div>
+                            <div class="bookIsbn">
+                                    <p> ISBN : <strong>0256874102</strong></p>
+                            </div>
+                    </div>
+                    
+                </div>
+
+                <div class="div-book">
+                    <div class="bookImg">
+                        <img
+                            src="https://images-na.ssl-images-amazon.com/images/I/51-5ZXYtcML._SX377_BO1,204,203,200_.jpg">
+                    </div>
+
+                    <div class="book-info">
+                        <div class="bookName">
+                            <h3>Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming</h3>
+                        </div>
+                        <div class="bookAuthor">
+                            <p> By : <strong>Marijn Haverbeke</strong></p>
+                        </div>
+                        <div class="bookPrice">
+                            <p> Price : <strong>$27.00</strong></p>
+                        </div>
+                        <div class="bookDate">
+                                <p> Published : <strong>2018-07-17</strong></p>
+                            </div>
+                            <div class="bookIsbn">
+                                    <p> ISBN : <strong>0256874102</strong></p>
+                                </div>
+                    </div>
+                </div>
+
+                <div class="div-book">
+                    <div class="bookImg">
+                        <img
+                            src="https://images-na.ssl-images-amazon.com/images/I/41p7u2kJACL._SX396_BO1,204,203,200_.jpg">
+                    </div>
+
+                    <div class="book-info">
+                        <div class="bookName">
+                            <h3>HTML and CSS: Design and Build Websites</h3>
+                        </div>
+                        <div class="bookAuthor">
+                            <p> By : <strong>Jon Duckett</strong></p>
+                        </div>
+                        <div class="bookPrice">
+                            <p> Price : <strong>$25.00</strong></p>
+                        </div>
+                        <div class="bookDate">
+                                <p> Published : <strong>2018-07-17</strong></p>
+                            </div>
+                            <div class="bookIsbn">
+                                    <p> ISBN : <strong>0256874102</strong></p>
+                                </div>
+                    </div>
+                </div>
+
+                <div class="div-book">
+                    <div class="bookImg">
+                        <img
+                            src="https://images-na.ssl-images-amazon.com/images/I/41y31M-zcgL._SX400_BO1,204,203,200_.jpg">
+                    </div>
+
+                    <div class="book-info">
+                        <div class="bookName">
+                            <h3>JavaScript and JQuery: Interactive Front-End Web Development</h3>
+                        </div>
+                        <div class="bookAuthor">
+                            <p> By : <strong>Jon Duckett</strong></p>
+                        </div>
+                        <div class="bookPrice">
+                            <p> Price : <strong>$35.00</strong></p>
+                        </div>
+                        <div class="bookDate">
+                                <p> Published : <strong>2018-07-17</strong></p>
+                            </div>
+                            <div class="bookIsbn">
+                                    <p> ISBN : <strong>0256874102</strong></p>
+                                </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
